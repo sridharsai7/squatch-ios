@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SaaSquatch",
-    platforms: [ .iOS(.v13) ],
+    platforms: [ .iOS(.v8) ],
     products: [
         .library(name: "SaaSquatch", targets: ["SaaSquatch"]),
         .library(name: "SaaSquatchWebView", targets: ["SaaSquatchWebView"])
